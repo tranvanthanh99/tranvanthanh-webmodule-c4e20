@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>C4E BLOG</h2>
+    {% for post in posts %}
+        <div>
+            <!-- template language,jinja2 -->
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.content}}</p>
+            <p>By: 
+                <!-- conditional expression -->
+                <!-- falsy value: 0, None -->
+                <!-- Truthy value: 1, 2, 3 -->
+                {{ "Mr" if post.author_sex else "Ms"}}
+                {{ post.author }}
+            </p>
+            <hr>
+        </div>
+    {% endfor %}
+</body>
+</html>
