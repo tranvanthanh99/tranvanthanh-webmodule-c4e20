@@ -1,0 +1,5 @@
+1. Are there any duplicate ids in the records?
+-> NO
+
+2. Guess what information this is field represents and its implication/application
+-> the ids are used to retrieve information from database.

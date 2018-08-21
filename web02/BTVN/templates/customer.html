@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <h3>Customer info</h3>
+    <a href="{{ url_for('index') }}">Về trang chủ</a>
+    {% for customer in all_customers %}
+    <div>
+        <h2>{{loop.index}}</h2>
+        {% if customer.gender %}
+        <img src="https://www.beautifulpeople.com/cdn/beautifulpeople/images/default_profile/signup_male.png" alt="">
+        {% else %}
+        <img src="https://i.pinimg.com/236x/8d/90/a9/8d90a954dd2cbd7b67ed7e5b4013c46e.jpg" alt="">
+        {% endif %}
+        <p>Tên : {{ customer.name }}</p>
+        <p>Năm sinh : {{ customer.yob }}</p>
+        <p>Chiều cao: {{ customer.height }}</p>
+        <p>số điện thoại: {{ customer.phone}}</p>
+        <p>Địa chỉ: {{customer.address}}</p>
+        <p>email: {{customer.email}}</p>
+        <p>Công việc: {{customer.job}}</p>
+        <p>Công ty: {{customer.company}}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
