@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <h1>Admin playground</h1>
+    <table border="1px">
+        <thead>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Năm sinh</th>
+            <th>giới tính</th>
+            <th>Chiều cao</th>
+            <th>SĐT</th>
+            <td>Địa chỉ</td>
+            <td>Trạng thái</td>
+            <td></td>
+        </thead>
+        <tbody>
+        {% for service in all_service %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ service.name}}</td>
+                <td>{{ service.yob}}</td>
+                <td>{{ "Nam" if service.gender else "Nữ"}}</td>
+                <td>{{service.height}}</td>
+                <td>{{service.phone}}</td>
+                <td>{{service.address}}</td>
+                <td>{{ "Bận" if service.Status else "Rảnh"}}</td>
+                <td>
+                    <a href="">Sửa</a>
+                    <a href="{{ url_for('delete', service_id = service.id) }}">Xóa</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

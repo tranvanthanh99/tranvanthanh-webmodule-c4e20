@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <img src="{{ service_detail.image }}" height="615" width="460" alt="">
+    <p>Tên : {{ service_detail.name }}</p>
+    <p>Năm sinh : {{ service_detail.yob }}</p>
+    <p>Chiều cao: {{ service_detail.height }}</p>
+    <p>số điện thoại: {{ service_detail.phone }}</p>
+    <p>Địa chỉ: {{ service_detail.address }}</p>
+    <p>Mô tả: {{ service_detail.description }}</p>
+    <p>số đo: {{ service_detail.measurements|join(' - ') }}</p>
+    <p>Trạng thái: {{ "Bận" if service_detail.Status else "Rảnh"}}</p>
+</body>
+</html>
