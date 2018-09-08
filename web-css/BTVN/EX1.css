@@ -1,0 +1,35 @@
+.bg-ele{
+    height:400px;
+    width: 70%;
+    background-image: url('img/Capture.PNG');
+    background-size: 70%;
+    background-attachment: fixed;
+}
+
+.text-upper-white-center{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-round{
+    border-radius: 80%;
+    height: 65%;
+    width: 65%;
+    padding: 6%;
+}
+
+.d-pad{
+    padding: 2% 0%;
+}
+
+.d-pad-2{
+    padding: 2% 1%;
+}
+
+
+

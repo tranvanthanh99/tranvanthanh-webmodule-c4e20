@@ -1,0 +1,7 @@
+->display: + block(div,p,h,..)
+           + inline(i,b,a,span,..) 
+           + inline-block
+
+-> border + width
+          + color
+          + style

@@ -1,0 +1,57 @@
+.bg-green{
+    background: rgb(7, 167, 92);
+}
+
+.h-80px{
+    height: 80px;
+}
+
+.h-40px{
+    height: 40px;
+}
+
+.h-600px{
+    height: 600px;
+}
+
+.h-80px{
+    height: 80px;
+}
+
+.bg-ablue{
+    background: rgb(3, 102, 89);
+}
+
+.bg-blue{
+    background: blue;
+}
+
+.bg-yellow{
+    background: yellow;
+}
+
+#top-box{
+    margin: 0px;
+    background: rgb(7, 167, 92);
+    height: 80px;
+    padding: 5px 100px 5px 5px;
+    box-sizing : border-box;
+}
+
+#right-box{
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    background: blue;
+    box-sizing : border-box;
+}
+
+#left-box{
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: blue;
+    box-sizing : border-box;
+}
