@@ -1,0 +1,264 @@
+.bg-green{
+    background-color: rgb(196, 255, 174);
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.w-5{
+    width: 5%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-45{
+    width: 45%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.h-900{
+    height: 1400px;
+}
+
+.l-margin{
+    margin: 0% 0% 5% 0%;
+}
+
+.ll-margin{
+    margin:0% 0% 17% 0%;
+}
+
+.lll-margin{
+    margin: 0% 0% 12% 0%;
+}
+
+.r-margin{
+    margin:0% 0% 5% 0%;
+}
+
+.rr-margin{
+    margin:0% 5% 0% 0%;
+}
+
+.rrr-margin{
+    margin: 0% 0% 5% 0%;
+}
+
+.rrrr-margin{
+    margin: 0px 1px 0px 0px;
+}
+
+.bg-margin{
+    margin: 0px 20px 20px 0px;
+}
+
+.h-5{
+    height: 5%;
+}
+
+.h-10{
+    height: 10%;
+}
+
+.h-15{
+    height: 15%;
+}
+
+.h-20{
+    height: 20%;
+}
+
+.h-16{
+    height: 16%;
+}
+
+.h-30{
+    height: 30%;
+}
+
+.h-35{
+    height: 35%;
+}
+
+.h-40{
+    height: 40%;
+}
+
+.h-42{
+    height:42%;
+}
+
+.h-45{
+    height: 45%;
+}
+
+.h-50{
+    height: 50%;
+}
+
+.h-55{
+    height: 55%;
+}
+
+.h-60{
+    height: 60%;
+}
+
+.h-80{
+    height: 80%;
+}
+
+.h-85{
+    height: 85%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.bg-top-left{
+    width: 20%;
+    height:1300px;
+}
+
+.bg-top-right{
+    width: 80%;
+    height:1300px;
+}
+
+.bg-bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    height:5%;   
+}
+
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+.flex-row{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-row-end{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+}
+
+.flex-center{
+    display: flex;    
+    justify-content: center;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+}
+
+.bg-icon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.rss{
+    background-image: url(images/icons/icon-rss.png);
+}
+
+.tweet{
+    background-image: url(images/icons/icon-twitter.png);
+}
+
+.facebook{
+    background-image: url(images/icons/icon-facebook.png);
+}
+
+.mail{
+    background-image: url(images/icons/mail.PNG);
+}
+
+#header{
+    background-image: url(images/header.jpg);
+    background-size: cover;
+}
+
+.cookbook{
+    background-image: url(images/cookbooks-blog.jpg);
+    background-size: cover;
+}
+   
+.dinner{
+    background-image: url(images/dinner-blog.jpg);
+    background-size: cover;
+}
+
+.pinterest{
+    background-image: url(images/pinterest.jpg);
+    background-size: cover;
+}
+
+.potato{
+    background-image: url(images/potato.jpg);
+    background-size: cover;
+}
+
+.tastemaker{
+    background-image: url(images/icons/nav-tastemakers.png);
+}
+
+.contribute{
+    background-image: url(images/icons/nav-contribute.png);
+}
+
+.blog{
+    background-image: url(images/icons/nav-blog.png);
+}
+
+.alist{
+    background-image: url(images/icons/nav-alist.png);
+}
+
+.about{
+    background-image: url(images/icons/nav-about.png);
+}
