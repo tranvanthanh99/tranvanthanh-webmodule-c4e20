@@ -1,0 +1,10 @@
+<a href="{{ url_for('admin')}}">Quản lý</a>
+<br>
+<a href="{{ url_for('search')}}">Service</a>
+<br>
+{% if session %}
+<a href="{{ url_for('logout') }}">Đăng xuất</a>
+{% else %}
+<a href="{{ url_for('login') }}">Đăng nhập</a>
+<a href="{{ url_for('register') }}">Đăng ký</a>
+{% endif %}

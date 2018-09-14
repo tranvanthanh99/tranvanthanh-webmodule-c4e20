@@ -1,0 +1,102 @@
+.font-lobster{
+    font-family: 'Lobster', cursive;
+}
+
+.mt-90px{
+    margin-top: 90px;
+}
+
+.mt-50px{
+    margin-top: 50px;
+}
+
+.mb-300px{
+    margin-bottom: 300px;
+}
+
+.h-700px{
+    height: 700px;
+}
+
+.h-650px{
+    height: 650px;
+}
+
+.h-400px{
+    height: 400px;
+}
+
+.h-300px{
+    height: 300px;
+}
+
+.h-200px{
+    height: 200px;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+.w-200px{
+    width: 200px;
+}
+
+.bg-female{
+    background-image: url(../image/female.jpg);
+    background-size: cover;
+}
+
+.bg-male{
+    background-image: url(../image/male.jpg);
+    background-size: cover;
+}
+
+.bg-night{
+    background-image: url(../image/night.jpg);
+    background-size: cover;
+}
+
+.bg-steel{
+    background-image: url(../image/steel.jpg);
+    background-size: cover;
+}
+
+.bg-rock{
+    background-image: url(../image/rocks.jpg);
+    background-size: cover;
+}
+
+.bg-wood{
+    background-image: url(../image/woods.jpg);
+    background-size: cover;
+}
+
+.bg-lightning{
+    background-image: url(../image/lightning.jpg);
+    background-size: cover;
+}
+
+.bg-leaf{
+    background-image: url(../image/leaf.PNG);
+    background-size: cover;
+}
+
+.bg-flower{
+    background-image: url(../image/flower.PNG);
+    background-size: cover;
+}
+
+.bg-water{
+    background-image: url(../image/water.PNG);
+    background-size: cover;
+}
+
+.bg-ice{
+    background-image: url(../image/ice.PNG);
+    background-size: cover;
+}
+
+.bg-c{
+    background-color: #cccccc;
+}
